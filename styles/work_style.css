@@ -1,0 +1,16 @@
+h3 {
+  color: #e01616;
+}
+
+.workitem {
+  border: 1px solid #050505;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #dbb155;
+}
+.project {
+  border: 1px solid #000000;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #9c61fa;
+}
