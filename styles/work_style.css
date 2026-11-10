@@ -1,16 +1,44 @@
 h3 {
-  color: #e01616;
+  color: #d8d5d5;
 }
 
 .workitem {
   border: 1px solid #050505;
   padding: 10px;
   margin-bottom: 10px;
-  background-color: #dbb155;
+  background-color: #7a3cee;
 }
 .project {
   border: 1px solid #000000;
   padding: 10px;
   margin-bottom: 10px;
   background-color: #9c61fa;
+}
+#workexperience {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+#projectz {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  #workexperience {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #projectz {
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 1200px) {
+  #workexperience {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  #projectz {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 }
