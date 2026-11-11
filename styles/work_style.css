@@ -1,18 +1,18 @@
 h3 {
-  color: #d8d5d5;
+  color: #eeeded;
 }
 
 .workitem {
-  border: 1px solid #6aff45;
+  border: 1px solid #eff306;
   padding: 10px;
   margin-bottom: 10px;
-  background-color: #626066;
+  background-color: #2e2e2e;
 }
 .project {
   border: 1px solid #000000;
   padding: 10px;
   margin-bottom: 10px;
-  background-color: #4c4b4d;
+  background-color: #2e2e2e;
 }
 #workexperience {
   display: grid;
@@ -41,4 +41,12 @@ h3 {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
+}
+
+article p {
+  color: #eeeded;
+}
+article a {
+  color: #0077ff;
+  text-decoration: none;
 }
