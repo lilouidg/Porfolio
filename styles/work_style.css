@@ -3,16 +3,16 @@ h3 {
 }
 
 .workitem {
-  border: 1px solid #050505;
+  border: 1px solid #6aff45;
   padding: 10px;
   margin-bottom: 10px;
-  background-color: #7a3cee;
+  background-color: #626066;
 }
 .project {
   border: 1px solid #000000;
   padding: 10px;
   margin-bottom: 10px;
-  background-color: #9c61fa;
+  background-color: #4c4b4d;
 }
 #workexperience {
   display: grid;
