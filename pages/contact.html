@@ -20,13 +20,21 @@
     <main>
       <h1>Contact Me</h1>
       <p>Feel free to reach out to me!</p>
-      <p>Name:</p>
-      <input id="name" />
-      <p>Email:</p>
-      <input id="email" />
-      <p>Message:</p>
-      <textarea id="message"></textarea>
-      <button type="submit">Send Message</button>
+      <form>
+        <fieldset>
+          <legend>Contact Form</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <br />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <br />
+          <button type="submit">Send Message</button>
+        </fieldset>
+      </form>
     </main>
 
     <footer>
